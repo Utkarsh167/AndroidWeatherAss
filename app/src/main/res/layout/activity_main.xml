@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:background="#3cb3f1"
+        android:id="@+id/city_weather_linear_lay"
+        android:layout_width="match_parent"
+        android:layout_height="300dp">
+
+    <TextView
+        android:textSize="18sp"
+        android:textColor="#ffffff"
+        android:text="City Name"
+        android:id="@+id/city_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textSize="18sp"
+        android:textColor="#ffffff"
+        android:text="Weather Description"
+        android:id="@+id/weather_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textSize="25sp"
+        android:textColor="#ffffff"
+        android:text="32"
+        android:id="@+id/title_temp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
